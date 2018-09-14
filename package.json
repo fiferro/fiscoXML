@@ -24,5 +24,9 @@
   "homepage": "https://github.com/fiferro/fiscoXML#readme",
   "bin": {
     "fiscoXML": "server.js"
+  }, 
+  "engines": {
+    "node": "0.10.x",
+    "npm": "2.1.x"
   }
 }
