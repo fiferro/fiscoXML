@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/server.js"
+    "start": "nodemon ./bin/server.js"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/fiferro/fiscoXML#readme",
   "bin": {
     "fiscoXML": "server.js"
-  }, 
+  },
   "engines": {
     "node": "0.10.x",
     "npm": "2.1.x"
